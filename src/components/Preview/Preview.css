@@ -1,0 +1,46 @@
+#finished{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.finished_container{
+    width: 45rem;
+}
+
+.dev-preview{
+    height: 370px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 auto 1rem;
+}
+
+.dev-preview > img{
+    max-width: 100%;
+}
+
+.preview{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.dev-live_site{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--amber);
+}
+
+.btn-primary{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--orange);
+}
