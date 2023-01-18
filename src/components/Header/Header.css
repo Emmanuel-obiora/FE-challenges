@@ -34,3 +34,107 @@ nav ul{
     color: var(--amber);
     font-size: 17.5px;
 }
+
+.toggle{
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: .2rem;
+    height: 2rem;
+    margin-left: auto;
+}
+
+.toggle:hover{
+    border: 1px solid var(--bluish-gray);
+}
+
+.menu-bar{
+    background: var(--bluish-gray);
+    width: 20px;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+}
+
+.menu-bar::before, .menu-bar::after{
+    background: var(--bluish-gray);
+    width: 20px;
+    display: inline-block;
+    height: 2px;
+    content: "";
+    position: absolute;
+}
+
+.menu-bar::after{
+    bottom: 5px;
+}
+
+.menu-bar::before{
+    top: 5px;
+}
+
+.close-btn{
+    display: none;
+}
+
+@media screen and (max-width: 37.5rem){
+    .toggle{
+        display: flex;
+    }
+
+    nav{
+        display: none;
+        position: absolute;
+        margin: 0 auto;
+        background: hsl(0, 0%, 100%);
+        border: 1px solid var(--bluish-gray);
+        border-radius: 5px;
+        top: 3.5rem;
+        right: 0;
+        z-index: 5;
+        padding: 1rem;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    .modal{
+        display: none;
+        background: rgba(0, 0, 0, .5);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 4;
+    }
+
+    .close-btn{
+        display: none;
+        position: absolute;
+        font-size: 28px;
+        right: 0;
+        color: var(--white);
+        z-index: 5;
+        background: var(--cyan);
+        margin-right: 2rem;
+        border-radius: 5px;
+        padding: .2rem;
+        cursor: pointer;
+    }
+
+    /* to display hidden elements */
+    .show-nav{
+        display: block;
+    }
+
+    .open-modal{
+        display: block;
+    }
+
+    .seeing{
+        display: none;
+    }
+}
