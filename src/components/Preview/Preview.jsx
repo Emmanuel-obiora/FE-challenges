@@ -1,10 +1,9 @@
 import React from "react";
 import './Preview.css'
-import Disp1 from '../../Assets/preview-images/newbie/QR-desktop.png'
-// import Disp2 from '../../Assets/preview-images/img2.png'
-// import Disp3 from '../../Assets/preview-images/img3.png'
-// import Disp4 from '../../Assets/preview-images/img4.png'
-// import Disp5 from '../../Assets/preview-images/img5.png'
+import Disp1 from '../../Assets/preview-images/about-me.png'
+import Disp2 from '../../Assets/preview-images/chat-app.png'
+import Disp3 from '../../Assets/preview-images/main.png'
+import Disp4 from '../../Assets/preview-images/mode.png'
 
 import { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -21,26 +20,21 @@ const data= [
         name: 'Obiora Emmanuel',
         liveSite:"https://emmanuel-obiora.github.io/portfolio-about-me-/src"
     },
-    // {
-    //     preview: Disp2,
-    //     name: 'Tina Snow',
-    //     liveSite:"https://emmanuel-obiora.github.io/portfolio-about-me-/src"
-    // },
-    // {
-    //     preview: Disp3,
-    //     name: 'Tina Snow',
-    //     liveSite:"https://emmanuel-obiora.github.io/portfolio-about-me-/src"
-    // },
-    // {
-    //     preview: Disp4,
-    //     name: 'Tina Snow',
-    //     liveSite:"https://emmanuel-obiora.github.io/portfolio-about-me-/src"
-    // },
-    // {
-    //     preview: Disp5,
-    //     name: 'Tina Snow',
-    //     liveSite:"https://emmanuel-obiora.github.io/portfolio-about-me-/src"
-    // },
+    {
+        preview: Disp2,
+        name: 'Obiora Emmanuel',
+        liveSite:"https://emmanuel-obiora.github.io/portfolio-about-me-/src"
+    },
+    {
+        preview: Disp3,
+        name: 'Obiora Emmanuel',
+        liveSite:"https://emmanuel-obiora.github.io/portfolio-about-me-/src"
+    },
+    {
+        preview: Disp4,
+        name: 'Obiora Emmanuel',
+        liveSite:"https://emmanuel-obiora.github.io/portfolio-about-me-/src"
+    },
 ]
 
 const Preview = () => {
