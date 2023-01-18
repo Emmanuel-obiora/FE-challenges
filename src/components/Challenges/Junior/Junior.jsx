@@ -5,7 +5,7 @@ import MainLayout from '../../Layout/MainLayout'
 const Junior = () => {
     return (
         <MainLayout>
-            <div></div>
+            <div>Junior</div>
         </MainLayout>
     )
 }

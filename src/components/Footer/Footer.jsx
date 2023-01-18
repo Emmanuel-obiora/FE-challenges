@@ -13,7 +13,7 @@ const Footer = () => {
     return (
         <footer>
             <p>
-                &copy; Seamfix FE-NextGen cohort 1 <span id='year'>Current year</span> All rights reserved.
+                &copy; <span className='seamfix'>Seamfix</span> FE-NextGen cohort 1 <span id='year'>Current year</span> All rights reserved.
             </p>
         </footer>
     )

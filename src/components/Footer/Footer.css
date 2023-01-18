@@ -5,5 +5,9 @@ footer{
     margin-top: auto;
     background: var(--white);
     height: 3rem;
-    color: var(--pale-cyan-blue);
+    border-top: 2px solid var(--bluish-gray);
+}
+
+.seamfix{
+    color: var(--green-cyan);
 }

@@ -1,18 +1,20 @@
 import React from 'react'
 import './Header.css'
 import { Link } from "react-router-dom";
+import { FcHome } from 'react-icons/fc'
+
 
 const Header = () => {
     return (
         <header>
-            <h1><Link to='/'>Home</Link></h1>
+            <Link to='/'><FcHome className="home" /></Link>
             <nav>
                 <ul>
-                    <li><Link to="/newbie">Newbie</Link></li>
-                    <li><Link to="/junior">Junior</Link></li>
-                    <li><Link to="/intermediate">Intermediate</Link></li>
-                    <li><Link to="/advanced">Advanced</Link></li>
-                    <li><Link to="/guru">Guru</Link></li>
+                    <li><Link to="/newbie" className="nav-list">Newbie</Link></li>
+                    <li><Link to="/junior" className="nav-list">Junior</Link></li>
+                    <li><Link to="/intermediate" className="nav-list">Intermediate</Link></li>
+                    <li><Link to="/advanced" className="nav-list">Advanced</Link></li>
+                    <li><Link to="/guru" className="nav-list">Guru</Link></li>
                 </ul>
             </nav>
         </header>

@@ -5,7 +5,7 @@ import MainLayout from '../../Layout/MainLayout'
 const Guru = () => {
     return (
         <MainLayout>
-            <div></div>
+            <div>Guru</div>
         </MainLayout>
     )
 }

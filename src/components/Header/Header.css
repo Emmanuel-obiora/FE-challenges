@@ -1,9 +1,14 @@
 header{
-    background: var(--green-cyan);
+    background: transparent;
     display: flex;
+    align-items: center;
     height: max-content;
-    padding: 1rem;
-    min-width: 100vw;
+    padding: .6rem;
+    border-bottom: 2px solid var(--cyan);
+}
+
+.home{
+    font-size: 30px;
 }
 
 nav{
@@ -12,20 +17,20 @@ nav{
 nav ul{
     display: flex;
     gap: 1rem;
-    color: var(--white);
-    text-decoration: none;
+    font-size: 17px;
     list-style: none;
-    font-size: 18px;
 }
 
-nav ul li{
-    border: 1px dashed var(--red);
-    padding: .5rem;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-nav ul li:hover{
+.nav-list{
+    text-decoration: none;
     border: none;
+    padding: .4rem;
+    cursor: pointer;
+    color: var(--bluish-gray);
+    transition: all ease-in-out .4s;
+}
+
+.nav-list:hover{
     color: var(--amber);
+    font-size: 17.5px;
 }

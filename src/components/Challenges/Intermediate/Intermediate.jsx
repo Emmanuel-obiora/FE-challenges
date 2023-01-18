@@ -5,7 +5,7 @@ import MainLayout from '../../Layout/MainLayout'
 const Intermediate = () => {
     return (
         <MainLayout>
-            <div></div>
+            <div>Intermediate</div>
         </MainLayout>
     )
 }

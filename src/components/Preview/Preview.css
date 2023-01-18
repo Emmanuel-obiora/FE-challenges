@@ -1,12 +1,23 @@
-#finished{
+.finished{
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.finished > h2{
+    text-transform: uppercase;
+    color: var(--cyan);
+}
+
 .finished_container{
     width: 45rem;
+}
+
+.preview{
+    text-align: center;
+    border-radius: 2rem;
 }
 
 .dev-preview{
@@ -14,33 +25,41 @@
     width: 100%;
     overflow: hidden;
     border-radius: 15px;
-    margin: 0 auto 1rem;
+    margin: .5rem auto;
 }
 
 .dev-preview > img{
     max-width: 100%;
 }
 
-.preview{
-    text-align: center;
-    padding: 2rem;
-    border-radius: 2rem;
-}
-
-.dev-live_site{
-    color: var(--color-light);
-    font-weight: 300;
-    display: block;
-    width: 80%;
-    margin: 0.8rem auto 0;
-}
-
 .swiper-pagination-clickable .swiper-pagination-bullet{
-    background: var(--amber);
+    background: var(--red);
 }
 
-.btn-primary{
+.coder2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem .4rem;
+}
+
+.coder2 > h5{
+    font-size: 16px;
+    color: var(--green-cyan);
+}
+
+.coder2 > a{
+    display: flex;
+    align-items: center;
     text-decoration: none;
+    color: var(--white);
+    border-radius: 15px;
+    padding: .5rem;
+    background: var(--bluish-gray);
     cursor: pointer;
-    color: var(--orange);
+}
+
+.coder2 > a:hover{
+    background: var(--green-cyan);
+
 }

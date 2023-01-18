@@ -1,0 +1,112 @@
+.chal-container{
+    padding: 2rem;
+}
+.new-challenges{
+    display: block;
+    min-height: 100vh;
+}
+
+.new-challenges > h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.challenge-article{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+}
+
+.challenge-article article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    background: transparent;
+    border: 1px solid var(--bluish-gray);
+    padding: 1rem;
+    border-radius: 8px;
+    transition: all ease-in-out .4s;
+}
+
+.challenge-article article:hover{
+    padding: .7rem;
+    background: var(--cyan);
+}
+
+.challenge-article article > h3{
+    text-align: center;
+}
+.challenge-article article > img{
+    max-width: 100%;
+}
+
+.challenge-article article > a{
+    border: 1px solid var(--green-cyan);
+    padding: .4rem;
+    text-decoration: none;
+    border-radius: 15px;
+    color: var(--white);
+    cursor: pointer;
+    background: var(--green-cyan);
+}
+
+.challenge-article article > a:hover{
+    border: 1px solid var(--amber);
+}
+
+/* Styling challenge details section */
+.challenge-details{
+    display: grid;
+    row-gap: 4rem;
+}
+
+.project-slide{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.project-slide article{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.project-slide article img{
+    max-width: 100%;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    height: 2.5rem;
+    background: var(--bluish-gray);
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background: var(--green-cyan);
+}
+
+.more-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.more-info > p{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.more-info > a{
+    text-decoration: none;
+}

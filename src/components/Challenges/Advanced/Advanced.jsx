@@ -5,7 +5,7 @@ import MainLayout from '../../Layout/MainLayout'
 const Advanced = () => {
     return (
         <MainLayout>
-            <div></div>
+            <div>Advanced</div>
         </MainLayout>
     )
 }
