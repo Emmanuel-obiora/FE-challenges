@@ -3,7 +3,7 @@
 }
 .new-challenges{
     display: block;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .new-challenges > h2{
@@ -61,6 +61,7 @@
 .challenge-details{
     display: grid;
     row-gap: 4rem;
+    margin-top: 5rem;
 }
 
 .project-slide{
@@ -109,4 +110,20 @@
 
 .more-info > a{
     text-decoration: none;
+}
+
+@media screen and (max-width: 64rem){
+    .challenge-article{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 37.5rem){
+    .challenge-article{
+        grid-template-columns: 1fr;
+    }
+
+    .project-slide{
+        grid-template-columns: 1fr;
+    }
 }

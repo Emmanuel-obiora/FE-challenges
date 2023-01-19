@@ -11,3 +11,9 @@ footer{
 .seamfix{
     color: var(--green-cyan);
 }
+
+@media screen and (max-width: 37.5rem){
+    footer{ 
+        font-size: 13px;
+    }
+}
