@@ -1,5 +1,5 @@
 .finished{
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,5 +61,12 @@
 
 .coder2 > a:hover{
     background: var(--green-cyan);
+
+}
+
+@media screen and (max-width: 37.5rem){
+    .finished_container{
+        width: 28rem;
+    }
 
 }
