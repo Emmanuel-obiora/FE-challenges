@@ -1,5 +1,4 @@
 .finished{
-    /* margin-top: 2rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +65,7 @@
 
 @media screen and (max-width: 37.5rem){
     .finished_container{
-        width: 28rem;
+        width: 22rem;
     }
 
 }
