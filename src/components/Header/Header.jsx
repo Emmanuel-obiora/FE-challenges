@@ -36,11 +36,11 @@ const Header = () => {
             <Link to='/'><FcHome className="home" /></Link>
             <nav id="Navigation">
                 <ul>
-                    <li><Link to="/newbie" className="nav-list">Newbie</Link></li>
-                    <li><Link to="/junior" className="nav-list">Junior</Link></li>
-                    <li><Link to="/intermediate" className="nav-list">Intermediate</Link></li>
-                    <li><Link to="/advanced" className="nav-list">Advanced</Link></li>
-                    <li><Link to="/guru" className="nav-list">Guru</Link></li>
+                    <li><a to="/newbie" className="nav-list">Newbie</a></li>
+                    <li><a to="/junior" className="nav-list">Junior</a></li>
+                    <li><a to="/intermediate" className="nav-list">Intermediate</a></li>
+                    <li><a to="/advanced" className="nav-list">Advanced</a></li>
+                    <li><a to="/guru" className="nav-list">Guru</a></li>
                 </ul>
             </nav>
             <div className="toggle" id="Toggleb" onClick={showNav}>
